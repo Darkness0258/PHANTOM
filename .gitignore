@@ -1,0 +1,33 @@
+# Build outputs
+apps/phantom-admin-desktop/dist/
+apps/phantom-admin-desktop/dist-electron/
+apps/phantom-mobile/android/
+apps/phantom-mobile/ios/
+apps/phantom-mobile/.expo/
+installer/output/
+
+# Binaries
+*.exe
+*.apk
+*.blockmap
+*.bin
+*.dll
+*.pak
+
+# Python
+**/__pycache__/
+**/*.pyc
+
+# Node
+**/node_modules/
+
+# Rust
+target/
+
+# Env
+.env
+*.env
+
+# Misc
+unins000.*
+nssm.exe

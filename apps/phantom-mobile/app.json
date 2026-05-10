@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PHANTOM",
+    "slug": "phantom-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#070a10",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#070a10",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#070a10"
+      },
+      "package": "com.darkness.phantom"
+    },
+    "ios": {
+      "bundleIdentifier": "com.darkness.phantom"
+    },
+    "extra": {
+      "coreUrl": "http://192.168.1.9:8000",
+      "aiUrl": "http://192.168.1.9:8001",
+      "eas": {
+        "projectId": "b31cc68a-dad1-47fc-8fa5-4195cceddff8"
+      }
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
+  }
+}

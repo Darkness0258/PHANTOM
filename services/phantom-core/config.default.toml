@@ -1,0 +1,26 @@
+# Default PHANTOM Core Configuration
+
+[core]
+host = "127.0.0.1"
+port = 9443
+log_level = "info"
+
+[database]
+path = "./data/phantom.db"
+encryption_key = ""
+max_connections = 10
+
+[network]
+scan_interval = 300
+snapshot_retention_days = 30
+nmap_enabled = true
+
+[security]
+session_token_rotation = true
+cert_rotation_days = 90
+pbkdf2_iterations = 100000
+
+[tls]
+cert_path = ""
+key_path = ""
+ca_cert_path = ""
